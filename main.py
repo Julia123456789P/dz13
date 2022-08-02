@@ -10,9 +10,6 @@ while True:
         break
 
 
-<<<<<<< HEAD
-
-=======
     def kal():
         a = float(input('1 chislo: '))
         b = float(input('2 chiclo: '))
@@ -34,7 +31,6 @@ while True:
 
 
     print(kal())
->>>>>>> d45bb8d (def kal)
 
 
 
