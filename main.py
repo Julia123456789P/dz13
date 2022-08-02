@@ -10,7 +10,31 @@ while True:
         break
 
 
+<<<<<<< HEAD
 
+=======
+    def kal():
+        a = float(input('1 chislo: '))
+        b = float(input('2 chiclo: '))
+        c = input('+ - * /: ')
+
+        if c == '+':
+            print(a + b)
+        elif c == '-':
+            print(a - b)
+        elif c == '*':
+            print(a * b)
+        elif c == '/':
+            try:
+                print(a / b)
+            except ZeroDivisionError:
+                print('Delenie na "0" nevozmoshno!')
+        else:
+            print('ne verno')
+
+
+    print(kal())
+>>>>>>> d45bb8d (def kal)
 
 
 
